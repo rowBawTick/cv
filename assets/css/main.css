@@ -1,15 +1,12 @@
 .grid-heading {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
-        " . title title title title . avatar ."
-        " . title title title title . avatar ."
-        " . info info info info info . ."
+        "title title title title . avatar"
+        "title title title title . avatar"
+        "info info info info . avatar "
     ;
-    grid-auto-rows: minmax(25px, 70px);
-    /*justify-items: left;*/
-    /*align-items: center;*/
-    /*grid-template-areas: "title avatar";*/
+    grid-auto-rows: minmax(25px, 60px);
 }
 
 .grid-heading__title {
@@ -26,11 +23,10 @@
 
 .grid-body {
     display: grid;
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
-        ". main main main main side side ."
+        "main main main main side side"
     ;
-    /*justify-items: left;*/
     grid-gap: 20px;
 }
 
