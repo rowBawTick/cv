@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "education",
+  name: "Education",
   data() {
     return {
       schools: [

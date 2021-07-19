@@ -30,7 +30,7 @@
 
 <script>
 export default {
-  name: "heading",
+  name: "Heading",
   data() {
     return {
       phoneNumber: "07563474883",

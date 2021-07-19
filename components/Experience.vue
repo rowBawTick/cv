@@ -70,7 +70,7 @@
 
 <script>
 export default {
-  name: "experience",
+  name: "Experience",
   data() {
     return {
       teachingJobs: [

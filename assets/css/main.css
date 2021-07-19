@@ -27,7 +27,7 @@
     grid-template-areas:
         "main main main main side side"
     ;
-    grid-gap: 20px;
+    grid-gap: 50px;
 }
 
 .grid-body__main {
@@ -38,4 +38,10 @@
     grid-area: side;
 }
 
+.btn {
+    @apply text-white bg-brand rounded-lg my-2 py-0.5 px-2 mx-2
+}
 
+.btn--animate {
+    @apply ease-in-out transform hover:scale-125 transition duration-300
+}
