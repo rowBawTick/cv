@@ -1,5 +1,16 @@
 .grid-heading {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "title title avatar"
+        "title title avatar"
+        "info info info"
+    ;
+    grid-auto-rows: minmax(25px, 55px);
+}
+
+.grid-heading--large {
+    display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
         "title title title title . avatar"
