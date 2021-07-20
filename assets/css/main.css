@@ -32,23 +32,6 @@
     grid-area: info;
 }
 
-.grid-body {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas:
-        "main main main main side side"
-    ;
-    grid-gap: 50px;
-}
-
-.grid-body__main {
-    grid-area: main;
-}
-
-.grid-body__sidebar {
-    grid-area: side;
-}
-
 .btn {
     @apply text-white bg-brand rounded-lg my-2 py-0.5 px-2 mx-2
 }

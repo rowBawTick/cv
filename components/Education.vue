@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8">
+  <div class="mb-5 lg:mb-0 mt-8">
     <h1 class="uppercase text-2xl text-darkGrey font-semibold">Education</h1>
     <hr class="bg-darkGrey h-0.75" />
 

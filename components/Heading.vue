@@ -5,7 +5,7 @@
       <h1 class="text-2xl lg:text-3xl text-darkGrey py-2">Software Engineer</h1>
     </div>
     <!-- Avatar -->
-    <div class="grid-heading__avatar py-2 lg:py-5 justify-self-end">
+    <div class="grid-heading__avatar py-2 lg:py-1 justify-self-end">
       <img src="~/assets/img/chris.svg" alt="Chris' Profile Picture"
            class="border-2 border-solid border-brandDarker rounded-full h-full w-auto"
       >

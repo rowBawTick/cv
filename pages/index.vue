@@ -3,15 +3,15 @@
     <div class="w-11/12 mx-auto">
       <Heading />
 
-      <div class="lg:grid-body mt-4">
+      <div class="flex flex-col lg:grid lg:grid-cols-3 lg:gap-10 mt-4">
         <!-- main body -->
-        <div class="grid-body__main">
+        <div class="lg:col-span-2">
           <Experience />
           <Education />
         </div>
 
         <!-- sidebar -->
-        <div class="grid-body__sidebar text-lg">
+        <div class="lg:grid-body__sidebar text-lg">
           <!-- Find me online -->
           <h1 class="uppercase text-2xl text-darkGrey font-semibold">Find me online</h1>
           <hr class="bg-darkGrey h-0.75" />
