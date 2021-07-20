@@ -3,7 +3,7 @@
     <div class="w-11/12 mx-auto">
       <Heading />
 
-      <div class="flex flex-col lg:grid lg:grid-cols-3 lg:gap-10 mt-4">
+      <div class="flex flex-col lg:grid lg:grid-cols-3 lg:gap-10 mt-8 lg:mt-4">
         <!-- main body -->
         <div class="lg:col-span-2">
           <Experience />
@@ -11,11 +11,11 @@
         </div>
 
         <!-- sidebar -->
-        <div class="lg:grid-body__sidebar text-lg">
+        <div class="text-lg">
           <!-- Find me online -->
           <h1 class="uppercase text-2xl text-darkGrey font-semibold">Find me online</h1>
           <hr class="bg-darkGrey h-0.75" />
-          <a href="https://www.linkedin.com/in/christopher-chambers-2403b912b" class="flex items-center mt-3 pl-3">
+          <a href="https://www.linkedin.com/in/christopher-chambers-2403b912b" class="flex items-center mt-5 lg:mt-3 pl-3">
             <img src="~/assets/img/logos/linkedin.svg" alt="" class="h-10">
             <h3 class="px-3 text-brandDarker font-medium hover:text-brand">/christopher-chambers-2403b912b</h3>
           </a>

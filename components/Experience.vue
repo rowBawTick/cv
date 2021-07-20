@@ -5,12 +5,12 @@
     <hr class="bg-darkGrey h-0.75" />
 
     <!-- Gigabyte -->
-    <div class="mt-4 lg:mt-8">
+    <div class="mt-6">
       <div class="flex">
         <img src="~/assets/img/icons/draw-calendar.svg" alt="" class="mr-2 -mt-0.5 h-6">
         <h3 class="text-white font-medium"><span class="bg-brand p-1 px-2.5 rounded-lg">April 2019 - Present</span></h3>
       </div>
-      <div class="flex text-lg font-semibold my-2 lg:my-1">
+      <div class="flex text-lg font-semibold my-4 lg:my-1">
         <h3 class="pr-4 text-lg font-medium">Software Engineer</h3>
         <a href="https://gigabyte.software" class="px-4 text-brandDark hover:text-brand">
           Gigabyte Group
@@ -21,7 +21,7 @@
           <span class="block px-2">London</span>
         </a>
       </div>
-      <ul class="list-disc pl-5 pt-1">
+      <ul class="list-disc pl-5 lg:pt-1">
         <li class="my-2">
           Liaised with stakeholders of our main client to create new features and fix bugs for their bespoke
           enterprise system. Gained experience primarily with PHP, Symfony, testing, MySQL and Domain Driven
@@ -40,7 +40,7 @@
 
     <!-- Teaching -->
     <div class="grid grid-cols-2 lg:grid-cols-3 grid-flow-row gap-1 lg:gap-2">
-      <div v-for="teachingJob in teachingJobs" class="mt-8 lg:mr-5 ml-2 lg:ml-0">
+      <div v-for="teachingJob in teachingJobs" class="mt-5 lg:mt-8 lg:mr-5 ml-2 lg:ml-0">
         <div class="flex">
           <img src="~/assets/img/icons/draw-calendar.svg" alt="" class="pr-2 -mt-0.5 h-6">
           <h3 class="text-white font-medium"><span class="bg-brand p-1 px-2.5 rounded-lg">{{ teachingJob.date }}</span></h3>

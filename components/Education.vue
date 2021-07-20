@@ -3,8 +3,8 @@
     <h1 class="uppercase text-2xl text-darkGrey font-semibold">Education</h1>
     <hr class="bg-darkGrey h-0.75" />
 
-    <div class="grid grid-cols-2 lg:grid-cols-3 grid-flow-row gap-1 lg:gap-2">
-      <div v-for="school in schools" class="mt-8 mr-5 ml-2 lg:ml-0">
+    <div class="grid grid-cols-2 lg:grid-cols-3 grid-flow-row gap-1 lg:gap-2 mb-8">
+      <div v-for="school in schools" class="mt-8 md:mt-6 mr-5 ml-2 lg:ml-0">
         <div class="flex">
           <img src="~/assets/img/icons/draw-calendar.svg" alt="" class="pr-2 -mt-0.5 h-6">
           <h3 class="text-white"><span class="bg-brand p-1 px-2.5 rounded-lg">{{ school.date }}</span></h3>

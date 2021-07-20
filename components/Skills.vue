@@ -4,7 +4,7 @@
     <div>
       <h1 class="uppercase text-2xl text-darkGrey font-semibold">Skills</h1>
       <hr class="bg-darkGrey h-0.75 mb-2" />
-      <div>
+      <div class="mt-5">
         <div v-for="language in languages" class="flex items-center">
           <h3 class="w-1/2 text-lg font-medium">{{ language.name }}</h3>
           <img v-for="star in language.rating" src="~/assets/img/icons/star.svg" alt="" class="h-5 pr-1 -mt-0.5">
@@ -17,7 +17,7 @@
     <div class="mt-10">
       <h1 class="uppercase text-2xl text-darkGrey font-semibold">I know about</h1>
       <hr class="bg-darkGrey h-0.75 mb-2" />
-      <div class="flex flex-wrap justify-center">
+      <div class="flex flex-wrap justify-center mt-5">
         <button v-for="skill in skills" class="btn btn--animate">{{ skill }}</button>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {
       skills: [
         "PHP", "Symfony", "HTML", "CSS", "TailwindCSS", "JavaScript", "Vue", "Nuxt", "Python", "SQL", "Doctrine",
         "REGEX", "Linux", "CLI", "Bash", "Git", "Composer", "Docker", "Vagrant", "Ansible", "REST", "APIs", "HTTP",
-        "SOLID", "OOP", "DDD",
+        "Balsamiq", "Figma", "Invision", "Photoshop", "SOLID", "OOP", "DDD", "TDD"
       ],
       languages: [
         {
