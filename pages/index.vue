@@ -15,7 +15,7 @@
           <!-- Find me online -->
           <h1 class="uppercase text-2xl text-darkGrey font-semibold">Find me online</h1>
           <hr class="bg-darkGrey h-0.75" />
-          <a href="https://www.linkedin.com/in/christopher-chambers-2403b912b" class="flex items-center mt-5 lg:mt-3 pl-3">
+          <a href="https://www.linkedin.com/in/christopher-chambers-2403b912b" class="flex items-center mt-5 pl-3">
             <img src="~/assets/img/logos/linkedin.svg" alt="" class="h-10">
             <h3 class="px-3 text-brandDarker font-medium hover:text-brand">/christopher-chambers-2403b912b</h3>
           </a>

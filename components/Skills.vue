@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       skills: [
-        "PHP", "Symfony", "HTML", "CSS", "TailwindCSS", "JavaScript", "Vue", "Nuxt", "Python", "SQL", "Doctrine",
+        "PHP", "Symfony", "HTML", "CSS", "TailwindCSS", "JavaScript", "Vue", "Nuxt", "Node", "Python", "SQL", "Doctrine",
         "REGEX", "Linux", "CLI", "Bash", "Git", "Composer", "Docker", "Vagrant", "Ansible", "REST", "APIs", "HTTP",
         "Balsamiq", "Figma", "Invision", "Photoshop", "SOLID", "OOP", "DDD", "TDD"
       ],
