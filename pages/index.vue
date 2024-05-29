@@ -38,7 +38,13 @@
 </style>
 
 <script>
+import Experience from "../components/Experience.vue";
+import Education from "../components/Education.vue";
+import Heading from "../components/Heading.vue";
+import Skills from "../components/Skills.vue";
+
 export default {
+  components: {Skills, Heading, Education, Experience}
 
 }
 </script>
