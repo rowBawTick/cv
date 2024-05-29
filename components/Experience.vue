@@ -4,11 +4,63 @@
     <h1 class="uppercase text-2xl text-darkGrey font-semibold">Experience</h1>
     <hr class="bg-darkGrey h-0.75" />
 
+    <!-- Substantive Research -->
+
+    <div class="mt-6">
+      <div class="flex">
+        <img src="~/assets/img/icons/draw-calendar.svg" alt="" class="mr-2 -mt-0.5 h-6">
+        <h3 class="text-white font-medium"><span class="bg-brand p-1 px-2.5 rounded-lg">September 2021 - Present</span></h3>
+      </div>
+      <div class="flex text-lg font-semibold my-4 lg:my-1">
+        <h3 class="pr-4 text-lg font-medium">Software Engineer</h3>
+        <a href="https://substantiveresearch.com" class="px-4 text-brandDark hover:text-brand">
+          Substantive Research
+        </a>
+        <a href="https://www.google.com/maps/place/Edinburgh/@55.9411809,-3.2877382,12z"
+           class="flex px-4 text-brandDark hover:text-brand">
+          <img src="~/assets/img/icons/location.svg" alt="" class="h-5 mt-1">
+          <span class="block px-2">Edinburgh</span>
+        </a>
+      </div>
+      <ul class="list-disc pl-5 lg:pt-1">
+        <li class="my-2">
+          Promoted to a senior role in a small team, involved in supporting and advising junior developers,
+          fostering a collaborative and growth-oriented team environment.
+        </li>
+        <li class="my-2">
+          Led the refactoring of an outsourced, inherited codebase into a maintainable, efficient system by
+          implementing sound engineering principles.
+        </li>
+        <li class="my-2">
+          Designed and implemented a CI/CD pipeline from scratch.
+        </li>
+        <li class="my-2">
+          Introduced comprehensive testing strategies, enhancing code reliability and stability.
+        </li>
+        <li class="my-2">
+          We have a strong emphasis on secure coding practices with annual penetration tests to safeguard sensitive
+          data, ensuring compliance with industry standards.
+        </li>
+        <li class="my-2">
+          Regularly engaged in client calls to gather feedback on existing products and discuss potential features,
+          ensuring that our developments align with client needs and are delivering value.
+        </li>
+        <li class="my-2">
+          Spearheaded the upgrade of our tech stack to the latest frameworks—Laravel 10, Vue 3, and Django—keeping
+          our software up to date, secure and enhancing project efficiency.
+        </li>
+        <li class="my-2">
+          Instigated a greater focus on growth and personal development within to our team by implementing monthly
+          retrospectives, knowledge sharing sessions and hackathons.
+        </li>
+      </ul>
+    </div>
+
     <!-- Gigabyte -->
     <div class="mt-6">
       <div class="flex">
         <img src="~/assets/img/icons/draw-calendar.svg" alt="" class="mr-2 -mt-0.5 h-6">
-        <h3 class="text-white font-medium"><span class="bg-brand p-1 px-2.5 rounded-lg">April 2019 - Present</span></h3>
+        <h3 class="text-white font-medium"><span class="bg-brand p-1 px-2.5 rounded-lg">April 2019 - August 2021</span></h3>
       </div>
       <div class="flex text-lg font-semibold my-4 lg:my-1">
         <h3 class="pr-4 text-lg font-medium">Software Engineer</h3>

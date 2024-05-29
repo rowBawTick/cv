@@ -19,7 +19,7 @@
             <img src="~/assets/img/logos/linkedin.svg" alt="" class="h-10">
             <h3 class="px-3 text-brandDarker font-medium hover:text-brand">/christopher-chambers-2403b912b</h3>
           </a>
-          <a href="https://github.com/rowBawTick" class="flex items-center mt-3 pl-3">
+          <a href="https://github.com/rowBawTick" class="flex items-center mt-5 pl-3">
             <img src="~/assets/img/logos/github.svg" alt="" class="h-10">
             <h3 class="px-3 text-brandDarker font-medium hover:text-brand">/rowBawTick</h3>
           </a>

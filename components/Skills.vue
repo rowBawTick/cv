@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10">
+  <div class="mt-16">
     <!-- Skills -->
     <div>
       <h1 class="uppercase text-2xl text-darkGrey font-semibold">Skills</h1>
@@ -14,7 +14,7 @@
     </div>
 
     <!-- I Know About -->
-    <div class="mt-10">
+    <div class="mt-16">
       <h1 class="uppercase text-2xl text-darkGrey font-semibold">I know about</h1>
       <hr class="bg-darkGrey h-0.75 mb-2" />
       <div class="flex flex-wrap justify-center mt-5">
@@ -30,14 +30,15 @@ export default {
   data() {
     return {
       skills: [
-        "PHP", "Symfony", "HTML", "CSS", "TailwindCSS", "JavaScript", "Vue", "Nuxt", "Node", "Python", "SQL", "Doctrine",
-        "REGEX", "Linux", "CLI", "Bash", "Git", "Composer", "Docker", "Vagrant", "Ansible", "REST", "APIs", "HTTP",
-        "Balsamiq", "Figma", "Invision", "Photoshop", "SOLID", "OOP", "DDD", "TDD"
+        "AWS", "Ansible", "APIs", "Balsamiq", "Bash", "CLI", "Composer", "CSS", "DDD", "Django", "Doctrine",
+        "Docker", "Figma", "Git", "HTML", "HTTP", "Inertia", "Invision", "JavaScript", "Laravel", "MySQL",
+        "Node", "Nuxt", "OOP", "PHP", "Photoshop", "Postgres", "Python", "REGEX", "REST", "SCSS", "SOLID", "SQL",
+        "Symfony", "TDD", "TailwindCSS", "Vagrant", "Vue", "Vuex",
       ],
       languages: [
         {
           name: "HTML",
-          rating: 4,
+          rating: 5,
         },
         {
           name: "CSS",
@@ -45,11 +46,11 @@ export default {
         },
         {
           name: "JavaScript",
-          rating: 3,
+          rating: 4,
         },
         {
           name: "PHP",
-          rating: 4,
+          rating: 5,
         },
         {
           name: "MySQL",
@@ -57,7 +58,7 @@ export default {
         },
         {
           name: "Python",
-          rating: 2,
+          rating: 4,
         },
       ]
     }
