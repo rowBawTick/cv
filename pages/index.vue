@@ -33,10 +33,6 @@
   </div>
 </template>
 
-<style>
-@import "assets/css/main.css";
-</style>
-
 <script>
 import Experience from "../components/Experience.vue";
 import Education from "../components/Education.vue";
